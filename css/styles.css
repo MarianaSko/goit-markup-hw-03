@@ -1,0 +1,177 @@
+:root {
+  --dark: #2e2f42;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text);
+  background-color: var(--white-background);
+}
+/* ======================COMPONENTS======================= */
+.logo {
+  color: var(--primary-brand);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-part-theme-dark {
+  color: var(--dark);
+}
+
+.logo-part-theme-light {
+  color: var(--light);
+}
+.modal-btn {
+  cursor: pointer;
+  background-color: var(--primary-brand);
+  color: var(--white-background);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--pressed-state);
+}
+
+.item-title {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.item-description-theme-dark {
+  color: var(--text);
+}
+.item-description-theme-light {
+  color: var(--light);
+}
+/* ======================/COMPONENTS======================= */
+
+/* ======================HEADER======================= */
+.contacts-info {
+  font-style: normal;
+}
+
+.menu-link {
+  color: var(--dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state);
+}
+
+.contacts-link {
+  color: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--pressed-state);
+}
+/* ======================/HEADER======================= */
+
+/* ======================HERO======================= */
+.hero-section {
+  background-color: var(--dark);
+}
+.hero-title {
+  color: var(--white-background);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+/* ======================/HERO======================= */
+/* ======================BENEFITS======================= */
+
+/* ======================/BENEFITS======================= */
+/* ======================WHAT ARE WE DOING======================= */
+.section-title {
+  color: var(--dark);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* ======================/WHAT ARE WE DOING======================= */
+
+/* ======================PORTFOLIO======================= */
+.filter-btn {
+  color: var(--primary-brand);
+  text-align: center;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--light);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
+}
+/* ======================/PORTFOLIO======================= */
+
+/* ======================OUR TEAM======================= */
+.team-section {
+  background-color: var(--light);
+}
+
+.team-item {
+  background-color: var(--white-background);
+}
+/* ======================/OUR TEAM======================= */
+
+/* ======================FOOTER======================= */
+.page-footer {
+  background: var(--dark);
+}
+
+/* ======================/FOOTER======================= */
