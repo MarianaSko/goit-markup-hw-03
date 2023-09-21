@@ -273,6 +273,13 @@ body {
 .team-item {
   background-color: var(--white-background);
 }
+.team-title {
+  text-align: center;
+}
+
+.team-description {
+  text-align: center;
+}
 /* ======================/OUR TEAM======================= */
 /* ======================PORTFOLIO======================= */
 .portfolio-section {
